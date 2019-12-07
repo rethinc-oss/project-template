@@ -1,0 +1,6 @@
+.devsupport/puppet/environments/localdev/.tmp/
+.devsupport/puppet/environments/localdev/.librarian/
+.devsupport/puppet/environments/localdev/modules/
+.devsupport/puppet/environments/localdev/Puppetfile.lock
+.vagrant/
+.vscode/settings.json

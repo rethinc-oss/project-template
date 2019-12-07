@@ -1,0 +1,4 @@
+profile::server::nginx::acme_server: https://localhost:14000/dir
+profile::server::nginx::acme_cacert: /opt/pebble/minica.pem
+profile::server::nginx::acme_email: dummy@local.dev
+profile::server::nginx::domain_suffix: localdev
