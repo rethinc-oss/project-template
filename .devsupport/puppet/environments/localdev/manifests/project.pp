@@ -10,6 +10,7 @@ class project (
       user => 'sysop',
       user_dir => '/vagrant',
       manage_user_dir => false,
+      php_development => true,
       * => delete($project, 'type'),
    }
    mysql::db { "${project['name']}":
