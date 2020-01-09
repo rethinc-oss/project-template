@@ -3,7 +3,16 @@ project:
   type: 'website/php/evoim'
   name: 'acme-website'
   php_version: '7.2'
-  php_modules: ['bz2', 'curl', 'gd', 'imagick', 'json', 'mbstring', 'mysql', 'opcache', 'readline', 'zip']
+  php_modules: ['bz2', 'curl', 'gd', 'imagick', 'json', 'mbstring', 'mysql', 'opcache', 'readline', 'xml', 'zip']
   php_memory_limit: '32M'
   php_upload_limit: '10M'
   php_execution_limit: 30
+
+#project:
+#  type: 'website/php/laravel'
+#  name: 'acme-website'
+#  php_version: '7.2'
+#  php_modules: ['bcmath', 'json', 'mbstring', 'xml', 'mysql', 'tokenizer']
+#  php_memory_limit: '32M'
+#  php_upload_limit: '10M'
+#  php_execution_limit: 30
