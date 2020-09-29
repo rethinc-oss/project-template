@@ -60,7 +60,8 @@ MSG
 
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "rethinc-oss/baseimage-ubuntu-1804"
+  config.vm.box = "rethinc-oss/baseimage-ubuntu"
+  config.vm.box_version = ">= 2004.01, <= 2004.99"
   config.vm.post_up_message = $msg
   
   config.vm.hostname = "#{hostname}"
