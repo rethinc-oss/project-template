@@ -2,4 +2,4 @@ forge "https://forgeapi.puppetlabs.com"
 
 mod "rethinc/profile",
     :git => "https://github.com/rethinc-oss/rethinc-profile.git",
-    :tag => "v0.5.0"
+    :tag => "v0.6.0"
