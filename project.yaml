@@ -3,9 +3,9 @@ project:
   type: 'website/php/evoim'
   name: 'acme-website'
   services: ['smtp', 'aws::s3']
-  php_version: '7.2'
-  php_modules: ['bz2', 'curl', 'gd', 'imagick', 'json', 'mbstring', 'mysql', 'opcache', 'readline', 'xml', 'zip']
-  php_memory_limit: '32M'
+  php_version: '8.1'
+  php_modules: ['bz2', 'curl', 'gd', 'imagick', 'mbstring', 'mysql', 'opcache', 'readline', 'xml', 'zip']
+  php_memory_limit: '64M'
   php_upload_limit: '10M'
   php_execution_limit: 30
 
@@ -14,8 +14,8 @@ project:
 #  name: 'acme-website'
 #  services: ['smtp', 'aws::s3']
 #  php_version: '7.2'
-#  php_modules: ['bcmath', 'json', 'mbstring', 'xml', 'mysql', 'tokenizer']
-#  php_memory_limit: '32M'
+#  php_modules: ['bcmath', 'mbstring', 'xml', 'mysql', 'tokenizer']
+#  php_memory_limit: '64M'
 #  php_upload_limit: '10M'
 #  php_execution_limit: 30
 
@@ -24,7 +24,7 @@ project:
 #  name: 'acme-website'
 #  services: ['smtp', 'aws::s3']
 #  php_version: '7.4'
-#  php_modules: ['bz2', 'curl', 'gd', 'imagick', 'intl', 'json', 'mbstring', 'mysql', 'opcache', 'readline', 'sqlite3', 'xml', 'zip']
+#  php_modules: ['bz2', 'curl', 'gd', 'imagick', 'intl', 'mbstring', 'mysql', 'opcache', 'readline', 'sqlite3', 'xml', 'zip']
 #  php_memory_limit: '256M'
 #  php_upload_limit: '10M'
 #  php_execution_limit: 60
